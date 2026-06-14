@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .attribution a {
+    color: hsl(75, 94%, 57%);
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 24px;
+  }
+
+    .avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 24px;
+  }
+
+  .container {
+    background-color: hsl(0, 0%, 12%);
+    width: 100%;
+    max-width: 375px;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+
+  /* Buttons */
+  .button1,
+  .button2,
+  .button3,
+  .button4,
+  .button5 {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 700;
+
+    padding: 14px;
+    margin-bottom: 16px;
+
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease,
+    color 0.3s ease;
+  }
+
+  .button1:hover,
+  .button2:hover,
+  .button3:hover,
+  .button4:hover,
+  .button5:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+  }
+
+  @media (max-width: 480px) {
+    body {
+      padding: 16px;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <img src="./assets/images/avatar-jessica.jpeg" alt="avatar" class="avatar">
+
+    <h1>Jessica Randall</h1>
+    <h2>London, United Kingdom</h2>
+    <p>"Front-end developer and avid reader."</p>
+
+    <div class="button1">
+      GitHub
+    </div>
+
+    <div class="button2">
+      Frontend Mentor
+    </div>
+
+    <div class="button3">
+      LinkedIn
+    </div>
+
+    <div class="button4">
+      Twitter
+    </div>
+
+    <div class="button5">
+      Instagram
+    </div>
+    
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Michael De Castro</a>.
+    </footer>
+
+  </div>
+</body>
+</html>
